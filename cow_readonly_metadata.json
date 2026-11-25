@@ -1,0 +1,47 @@
+{
+  "model": "MLPClassifier",
+  "dataset": "sklearn digits",
+  "width": 1024,
+  "epochs": 10,
+  "accuracy": 0.9822222222222222,
+  "parameters": 1126410,
+  "shapes": [
+    [
+      64,
+      1024
+    ],
+    [
+      1024,
+      1024
+    ],
+    [
+      1024,
+      10
+    ],
+    [
+      1024
+    ],
+    [
+      1024
+    ],
+    [
+      10
+    ]
+  ],
+  "dtype": "float32",
+  "payload_bytes": 4505640,
+  "kernel": "6.18.58.1-microsoft-standard-WSL2",
+  "python": "3.14.4",
+  "page_bytes": 4096,
+  "config": {
+    "strategy": "both",
+    "workers": 4,
+    "modify": 0.0,
+    "modify_workers": 4,
+    "repeats": 5,
+    "width": 1024,
+    "epochs": 10,
+    "output": "cow_readonly",
+    "train_only": null
+  }
+}
